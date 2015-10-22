@@ -12,7 +12,7 @@
 public class TicketMachine
 {
     // The price of a ticket from this machine.
-    private int price;
+    private  int price;
     // The amount of money entered by a customer so far.
     private int balance;
     // The total amount of money collected by this machine.
@@ -30,7 +30,9 @@ public class TicketMachine
         total = 0;
     }
 
-    /**
+   
+    
+    /***
      * Return the price of a ticket.
      */
     public int getPrice()
@@ -74,5 +76,13 @@ public class TicketMachine
         total = total + balance;
         // Clear the balance.
         balance = 0;
+    }
+     /** 
+     * Devuelve el valor del total
+     */
+    
+    public int getTotal()
+    {
+        return total;
     }
 }
