@@ -65,10 +65,15 @@ public class TicketMachine
     }
     
     public void prompt()
-    {
-     System.out.println ("Please, insert the correct amount of money");
+        {
+         System.out.println ("Please, insert the correct amount of money");
     
-    }
+         }   
+    public void showPrice()
+        {
+           System.out.println("The price of a ticket is " + price + " cents");
+        }
+    
 
     /**
      * Print a ticket.
