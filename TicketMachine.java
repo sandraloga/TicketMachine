@@ -39,7 +39,14 @@ public class TicketMachine
     {
         return price;
     }
-
+     /**
+      * Fija el precio del billete a un precio dado
+      */
+     
+     public void setPrice(int precioBillete)
+     {
+         price = precioBillete;
+     }
     /**
      * Return the amount of money already inserted for the
      * next ticket.
@@ -83,6 +90,6 @@ public class TicketMachine
     
     public int getTotal()
     {
-        return total;
+       return total;
     }
 }
