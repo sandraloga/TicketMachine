@@ -29,6 +29,14 @@ public class TicketMachine
         balance = 0;
         total = 0;
     }
+    
+    public TicketMachine(int precioBillete)
+    {
+        price = precioBillete;
+        balance = 0;
+        total = 0;
+        
+    }
 
    
     
